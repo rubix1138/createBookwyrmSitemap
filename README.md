@@ -30,5 +30,6 @@ sudo su - bookwyrm
 To add to cron:
 ```
 sudo su - bookwyrm
+crontab -e
 0 0 * * * /opt/bookwyrm/venv/bin/python3 /opt/bookwyrm/createBookwyrmSitemap.py
 ````
