@@ -1,7 +1,10 @@
 # createBookwyrmSitemap
 Create a sitemap for a Bookwyrm site
 
-This is a python script to build a sitemap from all the books in your bookwrym database.  This uses xml_sitemap_writer which isn't installed by default on a bookwyrm server.  This was written for a dockerless setup.  You will need to adjust the instructions below for a dockerized bookwyrm server.
+This is a python script to build a sitemap from all the books in your bookwrym database.  
+
+# Installation
+This uses xml_sitemap_writer which isn't installed by default on a bookwyrm server.  This was written for a dockerless setup.  You will need to adjust the instructions below for a dockerized bookwyrm server.
 ```
 sudo su - bookwyrm
 cd /opt/bookwyrm
@@ -28,7 +31,7 @@ Then reload nginx:
 ```
 sudo systemctl reload nginx
 ```
-#Usage
+# Usage
 To run manually:
 ```
 sudo su - bookwyrm
