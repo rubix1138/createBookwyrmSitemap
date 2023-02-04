@@ -24,6 +24,11 @@ Add the following lines in your main server block.  I put mine right below the c
         root /opt/bookwyrm/sitemaps;
     }
 ```
+Then reload nginx:
+```
+sudo systemctl reload nginx
+```
+#Usage
 To run manually:
 ```
 sudo su - bookwyrm
